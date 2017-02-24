@@ -91,22 +91,29 @@ h3{
 }
 
 .bottom{
-  height: 150px;
+  height: 190px;
 }
 
 .bottom img{
-  width: 50px;
-  margin: 10px 0px 15px 15px;
+  width: 35px;
+  margin: 10px 0px 0px 15px;
   display: inline-block;
 }
 
+.bottom p{
+  margin-top: 10px;
+}
+
 .bottom a{
-  background-color: green;
+  background-color: #135503;
   text-decoration: none;
   color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
-  margin: 20px 0px 15px 100px;
+  margin: 0px 0px 15px 100px;
   box-shadow: 2px 2px 2px gray;
 }
 
@@ -125,4 +132,20 @@ h3{
 
 #footer p{
   margin: 10px 0px 10px 0px;
+}
+
+#footer .contactinfo{
+  font-size: 14px;
+}
+
+#footer a{
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer img{
+  width: 20px;
+  display: inline-block;
+  margin: 0px 5px 0px 5px;
 }
